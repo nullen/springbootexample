@@ -1,0 +1,11 @@
+.gradle/
+.classpath
+.project
+.settings/
+dependency-reduced-pom.xml
+build/
+target
+bin
+.idea
+*.iml
+gradle.properties
