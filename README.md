@@ -3,7 +3,7 @@
 This is a template or skeleton for creating new microservice modules.
 Copy the whole structure and update the pom.xml for maven.
 
-# Lombok
+## Lombok
 
 This project is using Lombok and require Lombok plugin.
 * For Intellij - Search for "Lombok Plugin", install and restart.
@@ -13,4 +13,12 @@ This project is using Lombok and require Lombok plugin.
 
     $ mvn test
 
+## Start Springboot with Maven
+  
+    $ mvn spring-boot:run
     
+## Run RestFul services
+  
+    Find User by Id:
+    $ curl localhost:8080/user/{id}
+ 
